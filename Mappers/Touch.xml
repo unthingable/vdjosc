@@ -14,6 +14,9 @@
   <map value="CUTOFF" action="filter" />
   <map value="MONITOR" action="pfl" />
 
+  <map value="EQ_KILL_HIGH" action="eq_kill_high" />
+  <map value="EQ_KILL_MID" action="eq_kill_mid" />
+  <map value="EQ_KILL_LOW" action="eq_kill_low" />
 
   <map value="LOAD" action="load" />
 

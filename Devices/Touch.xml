@@ -30,6 +30,20 @@
   <slider cc="0x19" channel="0" deck="1" name="CUTOFF" />
   <slider cc="0x20" channel="0" deck="2" name="CUTOFF" />
 
+  <button cc="0x26" channel="0" name="EQ_KILL_HIGH" deck="1" value="0x7F" off="0x00"/>
+  <button cc="0x27" channel="0" name="EQ_KILL_MID" deck="1" value="0x7F" off="0x00"/>
+  <button cc="0x28" channel="0" name="EQ_KILL_LOW" deck="1" value="0x7F" off="0x00"/>
+  <button cc="0x2B" channel="0" name="EQ_KILL_HIGH" deck="2" value="0x7F" off="0x00"/>
+  <button cc="0x2C" channel="0" name="EQ_KILL_MID" deck="2" value="0x7F" off="0x00"/>
+  <button cc="0x2D" channel="0" name="EQ_KILL_LOW" deck="2" value="0x7F" off="0x00"/>
+  <led cc="0x72" channel="1" name="LED_EQ_KILL_HIGH" deck="1" default="EQ_KILL_HIGH"/>
+  <led cc="0x76" channel="1" name="LED_EQ_KILL_HIGH" deck="2" default="EQ_KILL_HIGH"/>
+  <led cc="0x73" channel="1" name="LED_EQ_KILL_MID" deck="1" default="EQ_KILL_MID"/>
+  <led cc="0x77" channel="1" name="LED_EQ_KILL_MID" deck="2" default="EQ_KILL_MID"/>
+  <led cc="0x74" channel="1" name="LED_EQ_KILL_LOW" deck="1" default="EQ_KILL_LOW"/>
+  <led cc="0x78" channel="1" name="LED_EQ_KILL_LOW" deck="2" default="EQ_KILL_LOW"/>
+
+
   <button cc="0x29" channel="0" name="MONITOR" deck="1" value="0x7F" off="0x00"/>
   <button cc="0x2E" channel="0" name="MONITOR" deck="2" value="0x7F" off="0x00"/>
   <led cc="0x75" channel="1" name="LED_MONITOR" deck="1" default="MONITOR"/>
