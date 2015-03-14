@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mapper device="TouchOSC" description="TouchOSC Bridge" author="MBProductionz" version="800" date="2015-03-13">
+<mapper device="TouchOSC" description="TouchOSC Bridge" author="unthingable" version="800" date="2015-03-13">
   <map value="PLAY" action="play_stutter" />
   <map value="STOP" action="pause_stop" />
   <map value="VOLUME" action="level" />

@@ -1,4 +1,4 @@
-<device author="PhantomDJ" decks="2" drivername="TouchOSC Bridge" name="TouchOSC" type="MIDI" version="800" >
+<device author="unthingable" decks="2" drivername="TouchOSC Bridge" name="TouchOSC" type="MIDI" version="800" >
   <button cc="0x04" channel="0" deck="1" name="PLAY" value="0x7F" off="0x00"/>
   <button cc="0x07" channel="0" deck="2" name="PLAY" value="0x7F" off="0x00"/>
   <led    cc="0x04" channel="1" deck="1" name="LED_PLAY" default="PLAY"/>
