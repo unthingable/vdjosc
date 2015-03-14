@@ -24,14 +24,11 @@
 
 
   <slider cc="0x11" channel="0" name="CROSSFADER" />
-  <led cc="0x11" channel="2" name="FKECROSSFADER" />
-  <!-- <slider cc="0x11" channel="2" name="CROSSFADER2" default="CROSSFADER"/> -->
+  <bar cc="0x11" channel="0" name="CROSSFADER_BAR" />
   <slider cc="0x25" channel="0" deck="1" name="VOLUME" />
   <slider cc="0x2A" channel="0" deck="2" name="VOLUME" />
   <slider cc="0x19" channel="0" deck="1" name="CUTOFF" />
   <slider cc="0x20" channel="0" deck="2" name="CUTOFF" />
-
-  <bar cc="0x41" channel="0" deck="2" name="BAR" />
 
   <button cc="0x29" channel="0" name="MONITOR" deck="1" value="0x7F" off="0x00"/>
   <button cc="0x2E" channel="0" name="MONITOR" deck="2" value="0x7F" off="0x00"/>
@@ -41,4 +38,6 @@
   <button cc="0x1C" channel="0" name="LOAD" deck="1" value="0x7F" off="0x00"/>
   <button cc="0x22" channel="0" name="LOAD" deck="2" value="0x7F" off="0x00"/>
 
+  <bar cc="0x4C" channel="3" name="VU" deck="1" />
+  <bar cc="0x4D" channel="3" name="VU" deck="2" />
 </device>

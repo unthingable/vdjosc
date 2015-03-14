@@ -10,10 +10,12 @@
   <map value="SYNC" action="sync" />
 
   <map value="CROSSFADER" action="crossfader" />
+  <map value="CROSSFADER_BAR" action="crossfader" />
   <map value="CUTOFF" action="filter" />
   <map value="MONITOR" action="pfl" />
 
-  <map value="BAR" action="get_volume" />
 
   <map value="LOAD" action="load" />
+
+  <map value="VU" action="get_vu_meter" />
 </mapper>
