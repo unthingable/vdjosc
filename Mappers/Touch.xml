@@ -13,5 +13,7 @@
   <map value="CUTOFF" action="filter" />
   <map value="MONITOR" action="pfl" />
 
+  <map value="BAR" action="get_volume" />
+
   <map value="LOAD" action="load" />
 </mapper>
