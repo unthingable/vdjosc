@@ -1,0 +1,40 @@
+<device author="PhantomDJ" decks="2" drivername="TouchOSC Bridge" name="TouchOSC" type="MIDI" version="800" >
+  <button cc="0x04" channel="0" deck="1" name="PLAY" />
+  <button cc="0x07" channel="0" deck="2" name="PLAY" />
+  <led    cc="0x04" channel="1" deck="1" name="LED_PLAY" default="PLAY"/>
+  <led    cc="0x07" channel="1" deck="2" name="LED_PLAY" default="PLAY"/>
+
+  <button cc="0x03" channel="0" name="CUE" deck="1" />
+  <button cc="0x08" channel="0" name="CUE" deck="2" />
+  <led cc="0x03" channel="1" name="LED_CUE" deck="1" default="CUE"/>
+  <led cc="0x08" channel="1" name="LED_CUE" deck="2" default="CUE"/>
+
+  <button cc="0x02" channel="0" name="SYNC" deck="1" />
+  <button cc="0x09" channel="0" name="SYNC" deck="2" />
+  <led cc="0x02" channel="1" name="LED_SYNC" deck="1" default="SYNC"/>
+  <led cc="0x09" channel="1" name="LED_SYNC" deck="2" default="SYNC"/>
+
+  <button cc="0x01" channel="0" name="STOP" deck="1" />
+  <button cc="0x0A" channel="0" name="STOP" deck="2" />
+  <led cc="0x01" channel="1" name="LED_STOP" deck="1" default="STOP"/>
+  <led cc="0x0A" channel="1" name="LED_STOP" deck="2" default="STOP"/>
+
+  <button cc="0x00" channel="0" name="SPIN" deck="1" />
+  <button cc="0x0B" channel="0" name="SPIN" deck="2" />
+
+
+  <slider cc="0x11" channel="0" name="CROSSFADER" />
+  <slider cc="0x25" channel="0" deck="1" name="VOLUME" />
+  <slider cc="0x2A" channel="0" deck="2" name="VOLUME" />
+  <slider cc="0x19" channel="0" deck="1" name="CUTOFF" />
+  <slider cc="0x20" channel="0" deck="2" name="CUTOFF" />
+
+  <button cc="0x29" channel="0" name="MONITOR" deck="1" value="0x7F" off="0x00"/>
+  <button cc="0x2E" channel="0" name="MONITOR" deck="2" value="0x7F" off="0x00"/>
+  <led cc="0x75" channel="1" name="LED_MONITOR" deck="1" default="MONITOR"/>
+  <led cc="0x79" channel="1" name="LED_MONITOR" deck="2" default="MONITOR"/>
+
+  <button cc="0x1C" channel="0" name="LOAD" deck="1" />
+  <button cc="0x22" channel="0" name="LOAD" deck="2" />
+
+</device>

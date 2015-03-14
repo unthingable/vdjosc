@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="TouchOSC" description="TouchOSC Bridge" author="MBProductionz" version="800" date="2015-03-13">
+  <map value="PLAY" action="play_stutter" />
+  <map value="STOP" action="pause_stop" />
+  <map value="VOLUME" action="level" />
+
+  <map value="CUE" action="get cue 0 ? goto_first_beat : cue_stop" />
+  <map value="LOAD" action="load" />
+  <map value="PITCH" action="pitch_slider" />
+  <map value="SYNC" action="sync" />
+
+  <map value="CROSSFADER" action="crossfader" />
+  <map value="CUTOFF" action="filter" />
+  <map value="MONITOR" action="pfl" />
+
+  <map value="LOAD" action="load" />
+</mapper>
