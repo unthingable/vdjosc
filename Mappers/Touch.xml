@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mapper device="TouchOSC" description="TouchOSC Bridge" author="unthingable" version="800" date="2015-03-13">
-  <map value="ONINIT" action="set '?eqfx' 0" />
+  <map value="ONINIT" action="set '$eqfx' 0" />
 
   <map value="PLAY" action="play_stutter" />
   <map value="STOP" action="pause_stop" />
@@ -22,8 +22,16 @@
 
   <map value="LOAD" action="load" />
 
-  <map value="EQ_FX" action="var_equal '?eqfx' 1 ? set '?eqfx' 0 : set '?eqfx' 1" />
-  <map value="EQ_FX_LED" action="var_equal '?eqfx' 1" />
-  <map value="EQ_FX_LED_INV" action="var_equal '?eqfx' 0" />
+  <map value="EQ_FX" action="var_equal '$eqfx' 1 ? set '$eqfx' 0 : set '$eqfx' 1" />
+  <map value="EQ_FX_LED" action="var_equal '$eqfx' 1" />
+  <map value="EQ_FX_LED_INV" action="var_equal '$eqfx' 0" />
+
+  <map value="FX_LEVEL1" action="var '$eqfx' ? effect_slider 1 1 : eq_low" />
+  <map value="FX_LEVEL2" action="var '$eqfx' ? effect_slider 2 1 : eq_mid" />
+  <map value="FX_LEVEL3" action="var '$eqfx' ? effect_slider 3 1 : eq_high" />
+  <map value="BAR_FX_LEVEL1" action="var '$eqfx' ? effect_slider 1 1 : eq_low" />
+  <map value="BAR_FX_LEVEL2" action="var '$eqfx' ? effect_slider 2 1 : eq_mid" />
+  <map value="BAR_FX_LEVEL3" action="var '$eqfx' ? effect_slider 3 1 : eq_high" />
+
   <map value="VU" action="get_vu_meter" />
 </mapper>

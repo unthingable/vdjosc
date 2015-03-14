@@ -56,6 +56,19 @@
   <led cc="0x7A" channel="1" name="EQ_FX_LED"/>
   <led cc="0x7B" channel="1" name="EQ_FX_LED_INV"/>
 
+  <slider cc="0x36" channel="0" deck="1" name="FX_LEVEL1" />
+  <slider cc="0x37" channel="0" deck="1" name="FX_LEVEL2" />
+  <slider cc="0x38" channel="0" deck="1" name="FX_LEVEL3" />
+  <slider cc="0x41" channel="0" deck="2" name="FX_LEVEL1" />
+  <slider cc="0x42" channel="0" deck="2" name="FX_LEVEL2" />
+  <slider cc="0x43" channel="0" deck="2" name="FX_LEVEL3" />
+  <bar cc="0x36" channel="0" deck="1" name="BAR_FX_LEVEL1" />
+  <bar cc="0x37" channel="0" deck="1" name="BAR_FX_LEVEL2" />
+  <bar cc="0x38" channel="0" deck="1" name="BAR_FX_LEVEL3" />
+  <bar cc="0x41" channel="0" deck="2" name="BAR_FX_LEVEL1" />
+  <bar cc="0x42" channel="0" deck="2" name="BAR_FX_LEVEL2" />
+  <bar cc="0x43" channel="0" deck="2" name="BAR_FX_LEVEL3" />
+
   <bar cc="0x4C" channel="3" name="VU" deck="1" />
   <bar cc="0x4D" channel="3" name="VU" deck="2" />
 </device>
