@@ -52,6 +52,10 @@
   <button cc="0x1C" channel="0" name="LOAD" deck="1" value="0x7F" off="0x00"/>
   <button cc="0x22" channel="0" name="LOAD" deck="2" value="0x7F" off="0x00"/>
 
+  <button cc="0x7A" channel="0" name="EQ_FX" value="0x7F" off="0x00"/>
+  <led cc="0x7A" channel="1" name="EQ_FX_LED"/>
+  <led cc="0x7B" channel="1" name="EQ_FX_LED_INV"/>
+
   <bar cc="0x4C" channel="3" name="VU" deck="1" />
   <bar cc="0x4D" channel="3" name="VU" deck="2" />
 </device>

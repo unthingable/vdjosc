@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mapper device="TouchOSC" description="TouchOSC Bridge" author="unthingable" version="800" date="2015-03-13">
+  <map value="ONINIT" action="set '?eqfx' 0" />
+
   <map value="PLAY" action="play_stutter" />
   <map value="STOP" action="pause_stop" />
   <map value="VOLUME" action="level" />
@@ -20,5 +22,8 @@
 
   <map value="LOAD" action="load" />
 
+  <map value="EQ_FX" action="var_equal '?eqfx' 1 ? set '?eqfx' 0 : set '?eqfx' 1" />
+  <map value="EQ_FX_LED" action="var_equal '?eqfx' 1" />
+  <map value="EQ_FX_LED_INV" action="var_equal '?eqfx' 0" />
   <map value="VU" action="get_vu_meter" />
 </mapper>
